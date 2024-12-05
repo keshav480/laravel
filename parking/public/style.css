@@ -1,0 +1,111 @@
+/* header css  star*/
+a.navbar-brand img {
+    width:147px !important
+}
+.container-fluid.custom-navbar {
+    height: 68px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+nav.navbar.navbar-inverse {
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000 !important;
+}
+.navbar-nav>li>a{
+    background-color: #fff !important;
+   
+}
+.navbar-nav>li .active>a{
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    color: #000;
+}
+li.dropdown.open a {
+    color: #000 !important;
+}
+.background-slider{
+    background-image: url('');
+}
+
+/* header css end  */
+
+/* index page css */
+.banner-image {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    opacity: 0.9;
+}
+.banner-item {
+    align-content: center;
+    text-align: center;
+    color: #fff;
+}
+.container.banner-outer {
+    min-height: 832px !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.banner-item h1 {
+    font-size: 74px;
+    text-transform: capitalize;
+}
+.banner-item p {
+font-size:28px;
+}
+
+/* index page end  */
+/* signup page css star  */
+
+.form-container {
+    width: 514px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-field:focus {
+    border-color: #007bff;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+.form-footer {
+    text-align: center;
+    margin-top: 15px;
+}
+/* Signup page css end  */
+/* login page css start */
+.form-container.login-form {
+    width: 394px;
+}
+/* login page css end */
